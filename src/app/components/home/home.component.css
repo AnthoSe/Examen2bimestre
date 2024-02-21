@@ -1,0 +1,134 @@
+.carousel{
+  margin:40px 40px 40px 40px;
+  
+}
+/* Estilos generales */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Estilos para la sección de Subastas Destacadas */
+.featured-auctions {
+  margin-top: 40px;
+  text-align: center;
+}
+
+.featured-auctions h2 {
+  color: #333;
+}
+
+.auction-list {
+  display: flex;
+  justify-content: space-around;
+}
+
+.auction-item {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: center;
+  margin: 0 5px;
+}
+
+.auction-item img {
+  max-width: 100%;
+  height: auto;
+}
+
+.auction-item a {
+  display: inline-block;
+  background-color: #3490dc;
+  color: #fff;
+  padding: 8px 16px;
+  text-decoration: none;
+  margin-top: 10px;
+}
+/*Ajuste de tamaño de carucell*/
+.carousel-image {
+  max-height: 600px;  /* ajusta el valor según tus necesidades */
+  max-width: 100%;   /* la anchura se ajustará automáticamente */
+  height: auto;      /* asegura que la imagen se ajuste proporcionalmente */
+}
+
+/* Estilos para la sección de Últimas Subastas Exitosas */
+.recently-closed-auctions {
+  margin-top: 40px;
+  text-align: center;
+}
+
+.recently-closed-auctions h2 {
+  color: #333;
+}
+
+.auction-list li {
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+
+/* Estilos para la sección de Estadísticas del Mercado */
+.market-trends {
+  margin-top: 40px;
+  text-align: center;
+}
+
+.market-trends h2 {
+  color: #333;
+}
+.property-info {
+  margin-bottom: 10px; /* Ajusta el espacio entre líneas */
+}
+
+/* Estilos para la sección de Llamada a la Acción */
+.call-to-action {
+  margin-top: 40px;
+  text-align: center;
+}
+
+.call-to-action h2 {
+  color: #333;
+}
+
+.call-to-action p {
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.cta-button {
+  display: inline-block;
+  background-color: #4caf50;
+  color: #fff;
+  padding: 12px 24px;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.cta-button:hover {
+  background-color: #45a049;
+}
+
+/* Estilos para el footer */
+.footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.social-links a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+.social-links a:hover {
+  text-decoration: underline;
+}

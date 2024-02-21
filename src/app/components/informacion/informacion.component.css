@@ -1,0 +1,45 @@
+/* Estilos para la sección "Sobre Nosotros" */
+
+.about-us {
+    background-color: #f8f8f8;
+    padding: 40px 0;
+  }
+  
+  .about-us h2 {
+    color: #333;
+    text-align: center;
+  }
+  
+  .about-us h3 {
+    color: #3490dc;
+    margin-top: 20px;
+  }
+  
+  .about-us p {
+    color: #666;
+    line-height: 1.6;
+  }
+  
+  .container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+/* Estilos para el footer */
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  .social-links a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+  }
+  
+  .social-links a:hover {
+    text-decoration: underline;
+  }

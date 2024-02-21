@@ -1,0 +1,31 @@
+<header>
+  <div class="titulo">
+    <img src="../assets/icon.png" alt="">
+  </div>
+  <nav>
+    <div class="navegacion">
+      <a routerLink="/home">Home </a>
+      
+      <a routerLink="/informacion">Informacion</a>
+      <hr>
+      <a routerLink="/subasta-ac">Subasta Actual</a>
+      <hr>
+      <a  routerLink="/contacto" >Contactos</a>
+    </div>
+    <hr>
+    <div class="registros">
+      <ng-container *ngIf="!UserService.loggedIn; else loggedIn">
+        <a routerLink="/login">login</a>
+        <hr>
+        <a routerLink="/registro">Registrarse</a>
+        <hr>
+      </ng-container>
+      <ng-template #loggedIn>
+        
+          <a (click)="UserService.logout()">logout</a>
+        
+      </ng-template>
+    </div>
+  </nav>
+</header>
+<router-outlet></router-outlet>

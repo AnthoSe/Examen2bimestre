@@ -1,0 +1,90 @@
+<div class="container">
+    <h2>Subasta Actual</h2>
+    <table class="table table-bordered">
+      <thead>
+        <tr>
+          <th>Consecutivo</th>
+          <th>Año</th>
+          <th>Tipo de Evento</th>
+          <th>Evento</th>
+          <th>Fecha Convocatoria</th>
+          <th>Fecha Fallo</th>
+          <th>Tipo de Bien</th>
+          <th>Subtipo de Bien</th>
+          <th>Lote</th>
+          <th>Descripción del Lote</th>
+          <th>Estado</th>
+          <th>Entidad Transferente</th>
+          <th>Precio Salida (MXN)</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let item of subastaActualData">
+          <td>{{ item.Consecutivo }}</td>
+          <td>{{ item.Anio }}</td>
+          <td>{{ item.TipoEvento }}</td>
+          <td>{{ item.Evento }}</td>
+          <td>{{ item.FechaConvocatoria }}</td>
+          <td>{{ item.FechaFallo }}</td>
+          <td>{{ item.TipoBien }}</td>
+          <td>{{ item.SubtipoBien }}</td>
+          <td>{{ item.Lote }}</td>
+          <td>{{ item.DescripcionLote }}</td>
+          <td>{{ item.Estado }}</td>
+          <td>{{ item.EntidadTransferente }}</td>
+          <td>{{ item.PrecioSalidaMontoEnMXN }}</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <!--SUBASTA PASADA -->
+  <div class="container">
+    <h2>Subasta Anterior</h2>
+    <table class="table table-bordered">
+      <thead>
+        <tr>
+          <th>Consecutivo</th>
+          <th>Año</th>
+          <th>Tipo de Evento</th>
+          <th>Evento</th>
+          <th>Fecha Convocatoria</th>
+          <th>Fecha Fallo</th>
+          <th>Tipo de Bien</th>
+          <th>Subtipo de Bien</th>
+          <th>Lote</th>
+          <th>Descripción del Lote</th>
+          <th>Estado</th>
+          <th>Entidad Transferente</th>
+          <th>Precio Salida (MXN)</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let item of subastaAnteriorData">
+          <td>{{ item.Consecutivo }}</td>
+          <td>{{ item.Anio }}</td>
+          <td>{{ item.TipoEvento }}</td>
+          <td>{{ item.Evento }}</td>
+          <td>{{ item.FechaConvocatoria }}</td>
+          <td>{{ item.FechaFallo }}</td>
+          <td>{{ item.TipoBien }}</td>
+          <td>{{ item.SubtipoBien }}</td>
+          <td>{{ item.Lote }}</td>
+          <td>{{ item.DescripcionLote }}</td>
+          <td>{{ item.Estado }}</td>
+          <td>{{ item.EntidadTransferente }}</td>
+          <td>{{ item.PrecioSalidaMontoEnMXN }}</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <!-- Footer -->
+<footer class="footer">
+  <div class="container">
+    <div class="social-links">
+      <a href="#" target="_blank" rel="noopener noreferrer">Facebook</a>
+      <a href="#" target="_blank" rel="noopener noreferrer">Twitter</a>
+      <a href="#" target="_blank" rel="noopener noreferrer">Instagram</a>
+    </div>
+    <p>&copy; 2024 Tu Empresa. Todos los derechos reservados.</p>
+  </div>
+</footer>

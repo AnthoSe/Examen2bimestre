@@ -1,0 +1,63 @@
+[
+    {
+      "Consecutivo": 1.1,
+      "Anio": 2023,
+      "TipoEvento": "Subasta Electrónica",
+      "Evento": "SEM 12/23 A",
+      "FechaConvocatoria": "2023-06-30",
+      "FechaFallo": "2023-07-12",
+      "TipoBien": "Bienes Muebles",
+      "SubtipoBien": "Bienes Muebles",
+      "Lote": 1,
+      "DescripcionLote": "Lote integrado por un lente para cámara fotográfica, 5 monitores de diferentes modelos, 3 módems y mercancía diversa. PRECIO CON I.V.A.",
+      "Estado": "Ciudad de México",
+      "EntidadTransferente": "ANAM",
+      "PrecioSalidaMontoEnMXN": 22298
+    },
+    {
+      "Consecutivo": 2.2,
+      "Anio": 2023,
+      "TipoEvento": "Subasta Electrónica",
+      "Evento": "SEM 12/23 A",
+      "FechaConvocatoria": "2023-06-30",
+      "FechaFallo": "2023-07-12",
+      "TipoBien": "Bienes Muebles",
+      "SubtipoBien": "Bienes Muebles",
+      "Lote": 2,
+      "DescripcionLote": "Lote integrado por 19 antenas, un monitor, un equipo de videoconferencia, 55 pilas de litio y mercancía diversa. PRECIO CON I.V.A.",
+      "Estado": "Veracruz",
+      "EntidadTransferente": "ANAM",
+      "PrecioSalidaMontoEnMXN": 21497
+    },
+    {
+      "Consecutivo": 3.3,
+      "Anio": 2023,
+      "TipoEvento": "Subasta Electrónica",
+      "Evento": "SEM 12/23 A",
+      "FechaConvocatoria": "2023-06-30",
+      "FechaFallo": "2023-07-12",
+      "TipoBien": "Bienes Muebles",
+      "SubtipoBien": "Bienes Muebles",
+      "Lote": 3,
+      "DescripcionLote": "Lote de 14 registradores de temperatura y humedad. PRECIO CON I.V.A.",
+      "Estado": "Nuevo León",
+      "EntidadTransferente": "ANAM",
+      "PrecioSalidaMontoEnMXN": 30382
+    },
+    {
+      "Consecutivo": 4,
+      "Anio": 2023,
+      "TipoEvento": "Subasta Electrónica",
+      "Evento": "SEM 12/23 A",
+      "FechaConvocatoria": "2023-06-30",
+      "FechaFallo": "2023-07-12",
+      "TipoBien": "Bienes Muebles",
+      "SubtipoBien": "Bienes Muebles",
+      "Lote": 4,
+      "DescripcionLote": "Vehículo no apto para matricular marca Ford Explorer Modelo 1995. PRECIO SIN I.V.A.",
+      "Estado": "Guanajuato",
+      "EntidadTransferente": "IMSS GTO",
+      "PrecioSalidaMontoEnMXN": 10961
+    }
+  ]
+  

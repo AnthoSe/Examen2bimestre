@@ -1,0 +1,62 @@
+[
+    {
+      "Consecutivo": 1.1,
+      "Anio": 2020,
+      "TipoEvento": "Subasta Electrónica",
+      "Evento": "SEM 05/20 A",
+      "FechaConvocatoria": "2020-03-15",
+      "FechaFallo": "2020-04-02",
+      "TipoBien": "Bienes Muebles",
+      "SubtipoBien": "Electrónicos",
+      "Lote": 1,
+      "DescripcionLote": "Lote de 10 computadoras, 15 impresoras y accesorios electrónicos variados. PRECIO CON I.V.A.",
+      "Estado": "Ciudad de México",
+      "EntidadTransferente": "SEGOB",
+      "PrecioSalidaMontoEnMXN": 15000
+    },
+    {
+      "Consecutivo": 2.2,
+      "Anio": 2019,
+      "TipoEvento": "Subasta Electrónica",
+      "Evento": "SEM 08/19 B",
+      "FechaConvocatoria": "2019-07-10",
+      "FechaFallo": "2019-08-02",
+      "TipoBien": "Bienes Inmuebles",
+      "SubtipoBien": "Terrenos",
+      "Lote": 2,
+      "DescripcionLote": "Lote de terrenos ubicados en zona residencial, con áreas verdes y servicios básicos. PRECIO CON I.V.A.",
+      "Estado": "Nuevo León",
+      "EntidadTransferente": "SEDATU",
+      "PrecioSalidaMontoEnMXN": 850000
+    },
+    {
+      "Consecutivo": 3.3,
+      "Anio": 2018,
+      "TipoEvento": "Subasta Presencial",
+      "Evento": "SP 12/18 C",
+      "FechaConvocatoria": "2018-11-20",
+      "FechaFallo": "2018-12-10",
+      "TipoBien": "Vehículos",
+      "SubtipoBien": "Automóviles",
+      "Lote": 3,
+      "DescripcionLote": "Lote de 5 automóviles usados en buen estado de diversas marcas y modelos. PRECIO CON I.V.A.",
+      "Estado": "Guanajuato",
+      "EntidadTransferente": "SAT",
+      "PrecioSalidaMontoEnMXN": 120000
+    },
+    {
+      "Consecutivo": 4,
+      "Anio": 2017,
+      "TipoEvento": "Subasta Electrónica",
+      "Evento": "SEM 06/17 A",
+      "FechaConvocatoria": "2017-04-28",
+      "FechaFallo": "2017-05-15",
+      "TipoBien": "Bienes Muebles",
+      "SubtipoBien": "Arte y Decoración",
+      "Lote": 4,
+      "DescripcionLote": "Lote de pinturas, esculturas y objetos de decoración. PRECIO CON I.V.A.",
+      "Estado": "Querétaro",
+      "EntidadTransferente": "INBA",
+      "PrecioSalidaMontoEnMXN": 50000
+    }
+]

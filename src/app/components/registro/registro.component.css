@@ -1,0 +1,79 @@
+/* Estilos para el formulario de registro */
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Establece el alto mínimo de la vista al 100% de la altura visible del dispositivo */
+  margin: 0;
+}
+.container {
+  flex: 1; /* Hace que el contenedor crezca para ocupar el espacio restante */
+  max-width: 600px;
+  margin: auto;
+  padding: 20px;
+}
+
+.registration-form {
+  display: flex;
+  flex-direction: column;
+  background-color: #f4f4f4;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+input {
+  padding: 10px;
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  background-color: #3498db;
+  color: #fff;
+  padding: 12px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #2980b9;
+}
+
+.error-message {
+  color: red;
+  margin-top: 4px;
+}
+
+/* Estilos para el footer */
+.footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+  margin-top: auto; /* Empuja el pie de página hacia abajo */
+}
+
+.social-links a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+.social-links a:hover {
+  text-decoration: underline;
+}

@@ -1,0 +1,39 @@
+/* Agrega este estilo en tu archivo CSS o en el componente específico */
+
+.perfil-container {
+  background-color: #f8f9fa;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-top: 20px; /* Agregado para separar del contenido superior */
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.btn-success {
+  background-color: #28a745;
+  border-color: #28a745;
+}
+
+/* Estilos para el footer */
+.footer {
+position: absolute;
+bottom: 0;
+width: 100%;
+background-color: #333;
+color: #fff;
+padding: 20px 0;
+text-align: center;
+}
+
+.social-links a {
+color: #fff;
+text-decoration: none;
+margin: 0 10px;
+}
+
+.social-links a:hover {
+text-decoration: underline;
+}

@@ -1,0 +1,37 @@
+<div class="login-container">
+  <form [formGroup]="loginForm" (ngSubmit)="signIn()">
+    <label for="correo">Usuario:</label>
+    <input type="text" id="correo" name="correo" formControlName="correo" required>
+    <!-- Mostrar mensaje de advertencia para el correo -->
+    <div *ngIf="loginForm.get('correo')?.hasError('email') && loginForm.get('correo')?.touched" class="warning-message">
+      El correo electrónico no es válido.
+    </div>
+
+    <!-- Mostrar mensaje de que el correo no está registrado -->
+    <div *ngIf="emailExistsMessage" class="error-message">
+      {{ emailExistsMessage }}
+    </div>
+
+    <label for="contrasenia">Contraseña:</label>
+    <input type="password" id="contrasenia" name="contrasenia" formControlName="contrasenia" required>
+
+    <button type="submit" [disabled]="!loginForm.valid">Iniciar sesión</button>
+
+    <!-- Mostrar mensaje de error si existe -->
+    <div *ngIf="errorMessage" class="error-message">
+      {{ errorMessage }}
+    </div>
+  </form>
+</div>
+<!-- Footer -->
+<footer class="footer">
+  <div class="container">
+    <div class="social-links">
+      <a href="#" target="_blank" rel="noopener noreferrer">Facebook</a>
+      <a href="#" target="_blank" rel="noopener noreferrer">Twitter</a>
+      <a href="#" target="_blank" rel="noopener noreferrer">Instagram</a>
+    </div>
+    <p>&copy; 2024 Tu Empresa. Todos los derechos reservados.</p>
+  </div>
+</footer>
+

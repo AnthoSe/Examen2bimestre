@@ -1,0 +1,55 @@
+/* Estilos para la sección de Contáctenos */
+.contact-us {
+    margin-top: 40px;
+    text-align: center;
+  }
+  
+  .contact-person {
+    margin-bottom: 40px;
+  }
+  
+  .contact-person h3 {
+    color: #333;
+  }
+  
+  .contact-person p {
+    color: #666;
+    margin: 10px 0;
+  }
+  
+  .contact-person ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .contact-person ul li {
+    margin: 5px 0;
+  }
+  
+  .contact-person a {
+    color: #3490dc;
+    text-decoration: none;
+  }
+  
+  .contact-person a:hover {
+    text-decoration: underline;
+  }
+  
+/* Estilos para el footer */
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  .social-links a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+  }
+  
+  .social-links a:hover {
+    text-decoration: underline;
+  }
+  
